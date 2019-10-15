@@ -4,6 +4,7 @@
 2. 安装开发依赖 （注意版本）
 
     `npm install webpack webpack-cli --save-dev --registry=https://registry.npm.taobao.org`
+    
     `npm install webpack-dev-server html-webpack-plugin --save-dev --registry=https://registry.npm.taobao.org`
 
     配置 webpack.dev.config 文件：
