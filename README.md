@@ -3,8 +3,8 @@
 1. 运行 npm init
 2. 安装开发依赖 （注意版本）
 
-    npm install webpack webpack-cli --save-dev --registry=https://registry.npm.taobao.org
-    npm install webpack-dev-server html-webpack-plugin --save-dev --registry=https://registry.npm.taobao.org
+    `npm install webpack webpack-cli --save-dev --registry=https://registry.npm.taobao.org`
+    `npm install webpack-dev-server html-webpack-plugin --save-dev --registry=https://registry.npm.taobao.org`
 
     配置 webpack.dev.config 文件：
         devServer 是本地开发环境下的服务器，从这个服务器中获取文件，所以里面要配置地址
