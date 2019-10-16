@@ -1,3 +1,4 @@
+// extends 是继承的关键字
 class Person {
     constructor(name, age) {
         this.name = name; 
@@ -21,7 +22,7 @@ class Student extends Person{
     }
 
     study(){
-        console.log(`my study id is ${this.id}`);
+        console.log(`${this.name}'s id is ${this.id}`);
     }
 }
 
