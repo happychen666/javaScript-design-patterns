@@ -14,6 +14,7 @@
     `npm install babel-core babel-loader babel-polyfill babel-preset-es2015 babel-preset-latest --save-dev --registry=https://registry.npm.taobao.org`
 
     配置 .babelrc 文件
+    
     配置 webpack.dev.config 文件中的 rules
 
 4.  `npm run dev`
